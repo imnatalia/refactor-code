@@ -2,10 +2,10 @@
 * Recursive function to decrease a number until it reaches 1
 * and sum all the previous numbers
 ****************************/
-int recursive(int number);
+int sumNumbersRecursive(int number);
 
 /**************************
 * Iterative function to decrease a number until it reaches 1
 * and sum all the previous numbers
 ****************************/
-int iterative(int number);
+int sumNumbersIterative(int number);

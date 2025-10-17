@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "functions.h"
 
 int main()
 {
@@ -17,10 +18,10 @@ int main()
     */
    switch(option) {
        case 1:
-           printf("Resultado usando RECURSIVIDADE: %d", recursive(number));
+           printf("Resultado usando RECURSIVIDADE: %d", sumNumbersRecursive(number));
            break;
        case 2:
-           printf("Resultado usando ITERATIVIDADE: %d", iterative(number));
+           printf("Resultado usando ITERATIVIDADE: %d", sumNumbersIterative(number));
            break;
        default:
            printf("Escolha invalida.");
